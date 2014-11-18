@@ -1,0 +1,22 @@
+div.item {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.item-label .item-value {
+  
+}
+
+.item-label {
+  display: inline-block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;  
+}
+
+.item-value {
+  display: inline-block;
+  float: left;
+  margin-left: 10px; 
+}
