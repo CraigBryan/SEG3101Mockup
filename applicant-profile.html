@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Applicant login</title>
+    <title>Applicant Profile - TAMS</title>
 
     <link rel="stylesheet" href="css/pure-min.css">
     <link rel="stylesheet" href="css/common.css">
-
+    <link rel="stylesheet" href="css/layouts/profile.css">
 </head>
 <body>
 
@@ -25,56 +25,112 @@
 
             <ul>
                 <li class="menu-item-divided pure-menu-selected">
-                    <a href="#">View Profile</a>
+                    <a href="applicant-profile.html">View Profile</a>
                 </li>
-                <li><a href="#">Edit Profile</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="edit-profile.html">Edit Profile</a></li>
+                <li><a href="view-jobs.html">Browse Available<br>Jobs</a></li>
+                <li><a href="view-single-job.html">View Position</a></li>
+                <li><a href="view-job-offer.html">View Job Offers</a></li>
             </ul>
         </div>
     </div>
 
     <div id="main">
         <div class="header">
-            <h1>Page Title</h1>
-            <h2>A subtitle for your page goes here</h2>
+            <h1>HengHeng Xie</h1>
         </div>
 
         <div class="content">
-            <h2 class="content-subhead">How to use this layout</h2>
-            <p>
-                To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/css/layouts/side-menu.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
-            </p>
-
-            <h2 class="content-subhead">Now Let's Speak Some Latin</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-
-            <div class="pure-g">
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="http://farm3.staticflickr.com/2875/9069037713_1752f5daeb.jpg" alt="Peyto Lake">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="http://farm3.staticflickr.com/2813/9069585985_80da8db54f.jpg" alt="Train">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="http://farm6.staticflickr.com/5456/9121446012_c1640e42d0.jpg" alt="T-Shirt Store">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="http://farm8.staticflickr.com/7357/9086701425_fda3024927.jpg" alt="Mountain">
-                </div>
+            <div class="item">
+                <div class="item-label">Full name:</div>
+                <div class="item-value">HengHeng Xie</div>
             </div>
 
-            <h2 class="content-subhead">Try Resizing your Browser</h2>
+            <div class="item">
+                <div class="item-label">Telephone Number:</div>
+                <div class="item-value">(111) 123-1234</div> 
+            </div>
+
+            <div class="item">
+                <div class="item-label">Address:</div>
+                <div class="item-value">1234 Fake Street, Ottawa, Ontario, Canada H0H 0H0</div>
+            </div>
+
+            <div class="item">
+                <div class="item-label">Summer Address:</div>
+                <div class="item-value">1237 Super Fake Street, Ottawa, Ontario, Canada H0H 1H1</div>
+            </div>
+
+            <div class="item">
+                <div class="item-label">Student Number:</div>
+                <div class="item-value">1234567</div>
+            </div>
+
+            <div class="item">
+                <div class="item-label">Employee Number:</div>
+                <div class="item-value">9876543</div>
+            </div>
+
+            <div class="item">
+                <div class="item-label">Program of Study:</div>
+                <div class="item-value">Masters of Computer Science</div>
+            </div>
+
+            <div class="item">
+                <div class="item-label">Student Status:</div>
+                <div class="item-value">Full Time</div>
+            </div>
+
+            <div class="item">
+                <div class="item-label">Spoken Languages:</div>
+                <div class="item-value">English, French, Portugese</div>
+            </div>
+
+            <div class="item">
+                <div class="item-label">Written Languages:</div>
+                <div class="item-value">English, French</div>
+            </div>
+
+            <h2 class="container-header">Education History</h2>
+            <span class="item-value">BASc Software Engineering</span>
+            <span class="item-value">2012-2015</span>
+            <span class="item-value">University of Ottawa</span><br>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                This is the blurb about my UOttawa experience. I learned all the things.
             </p>
+
+            <span class="item-value">BA Fine Arts</span>
+            <span class="item-value">2009-2010</span>
+            <span class="item-value">Carleton University</span><br>
+            <p>
+                This is the blurb about my Carleton experience. Yup.
+            </p>
+
+            <h2 class="container-header">Publications</h2>
+            <p>
+                Hengheng Xie, Azzedine Boukerche, Antonio A. F. Loureiro: TCP-ETX: A cross layer path metric for TCP optimization in wireless networks. ICC 2013: 3597-3601
+            </p>
+
+            <p>
+                Hengheng Xie, Azzedine Boukerche, Richard W. Pazzi: A novel collision probability based adaptive contention windows adjustment for QoS fairness on ad hoc wireless networks. GLOBECOM 2012: 5488-5493
+            </p>
+            <h2>Current Research</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <h2>Past Positions</h2>
+            <span class="item-value">SEG 3101</span>
+            <span class="item-value">Fall 2013</span>
+            <span class="item-value"><a href="#">See Evaluation</a></span><br>
+
+            <span class="item-value">SEG 2106</span>
+            <span class="item-value">Winter 2013</span>
+            <span class="item-value"><a href="#">See Evaluation</a></span><br>
         </div>
     </div>
 </div>
 <script src="js/ui.js"></script>
-
 
 </body>
 </html>
