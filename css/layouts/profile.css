@@ -79,3 +79,7 @@ textarea {
 .container > input[type=button] {
   margin-left: 10px;
 }
+
+#login {
+  width: 100%;
+}
