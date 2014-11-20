@@ -124,3 +124,7 @@ textarea {
     float: right;
     max-width: 20px;
   }
+
+.spacer {
+  margin: 20px 0;
+}
