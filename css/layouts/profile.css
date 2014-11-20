@@ -4,10 +4,6 @@ div.item {
   margin-top: 5px;
 }
 
-.item-label .item-value {
-  
-}
-
 .item-label { 
   display: inline-block;
   float: left;
@@ -83,3 +79,48 @@ textarea {
 #login {
   width: 100%;
 }
+
+.notification-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #111;
+  width: 400px;
+  color: white;
+  padding: 15px;
+}
+
+.notification {
+
+}
+  
+  .notification hr {
+    margin: 5px 0px;
+  }
+
+  .notification a {
+    color: teal;
+    text-decoration: none;
+  }
+
+  .notification a:hover {
+    color: red;
+  }
+
+  .notification > div {
+    float: right;
+  }
+
+.notification-header {
+  margin-bottom: 10px;
+  font-size: 20px
+}
+
+  .notification-header a:hover {
+    color: teal;
+  }
+
+  img {
+    float: right;
+    max-width: 20px;
+  }

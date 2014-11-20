@@ -45,3 +45,32 @@ input[type=radio] {
 .filters {
   margin: 15px 0px;
 }
+
+.notification {
+  
+}
+
+  .notification.unread {
+    background-color: #FF3030;
+  }
+
+  .notification input {
+    margin-left: 20px;
+  }
+
+.centered {
+  text-align: center;
+}
+
+input[type=button].lefted {
+  float: none;
+  margin-right: 50px
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+.second h2{
+  margin-top: 50px; 
+} 
