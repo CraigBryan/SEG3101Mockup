@@ -1,0 +1,47 @@
+.floating {
+  box-shadow: 1px 1px 1px #333;
+  overflow: hidden;
+}
+
+.list {
+  margin-top: 10px;
+  padding: 20px 10px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.detail {
+  margin-right: 10px;
+}
+
+.details {
+  margin-top:3px;
+  display: inline-block;
+}
+
+input[type=button]{
+  float:right;
+  border-radius: 25px;
+}
+
+.search {
+  float:right;
+}
+
+.radio-label {
+  margin-left:3px;
+  margin-right: 5px;
+}
+
+input[type=radio] {
+  position: relative;
+  top: 1px;
+}
+
+.content {
+  padding: 0px;
+}
+
+.filters {
+  margin: 15px 0px;
+}
