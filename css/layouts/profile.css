@@ -43,6 +43,16 @@ div.container {
   padding-right: 30px;
 } 
 
+.item-value > input[type=checkbox] {
+  margin-right: 5px;
+  position: relative;
+  top: 1px;
+}
+
+label.item-value {
+  margin-right: 45px;
+}
+
 p {
   text-align: justify;
   margin-left: 10px;
