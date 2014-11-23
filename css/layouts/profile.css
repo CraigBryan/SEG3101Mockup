@@ -13,6 +13,10 @@ div.item {
   margin-left: 10px;
 }
 
+  .item-label.long {
+    width: 400px  ;
+  }
+
 .item-value {
   display: inline-block;
   float: left;
@@ -137,4 +141,9 @@ textarea {
 
 .spacer {
   margin: 20px 0;
+}
+
+.button-row {
+  margin-bottom: 30px;
+  margin-top: 10px;
 }

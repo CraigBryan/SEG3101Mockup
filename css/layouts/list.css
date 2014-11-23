@@ -72,6 +72,35 @@ h2 {
   margin-bottom: 0px;
 }
 
-.second h2{
+.second h2 {
   margin-top: 50px; 
-} 
+}
+
+
+.large-item {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 5px 20px;
+  margin: 10px 0px;
+}
+
+  .large-item .info {
+    float:left;
+  }
+
+    .info span {
+      display: block;
+    }
+
+  .large-item .buttons {
+    float:right;
+  }
+
+  .large-item .buttons input[type=button]{
+    clear:right; 
+    margin-bottom: 5px;
+  }
+
+  .large-item .buttons .disabled {
+    background-color: gray;
+  }
