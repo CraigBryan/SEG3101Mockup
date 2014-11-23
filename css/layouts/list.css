@@ -51,7 +51,8 @@ input[type=radio] {
 }
 
   .notification.unread {
-    background-color: #FF3030;
+    border: 1px solid red;
+    box-shadow: 1px 1px 1px red;
   }
 
   .notification input {

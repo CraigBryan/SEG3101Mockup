@@ -204,6 +204,9 @@ small screens.
             margin-top: 0.6em;
         }
 
+p.small {
+    font-size: 12px;
+}
 
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 

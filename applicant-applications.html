@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Applicant Profile - TAMS</title>
+
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/layouts/list.css">
+</head>
+<body>
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="#">TAMS</a>
+
+            <ul>
+                <li><a href="applicant-profile.html">View Profile</a></li>
+                <li><a href="edit-profile.html">Edit Profile</a></li>
+                <li><a href="view-jobs.html">Browse Available<br>Jobs</a></li>
+                <li class="menu-item-divided pure-menu-selected">
+                    <a href="applicant-applications.html">Applications</a>
+                    </li>
+                <li><a href="applicant-notification.html">Notifications</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Applications</h1>
+        </div>
+
+        <div class="content">
+            <div class="filters">
+                <span>Sort by:</span>
+                <input type="radio" name="status" checked="true"><span class="radio-label">Closing Date</span>
+                <input type="radio" name="status"><span class="radio-label">Program</span>
+                <input type="radio" name="status"><span class="radio-label">Status</span>
+                <input type="radio" name="status"><span class="radio-label">Name</span>
+                <div class="search">
+                  <input type="text" value="Search Here">
+                </div>
+            </div>
+
+            <div class="centered">
+                <h2>Active</h2>
+            </div>
+
+            <div class="floating list">
+                <div class="details">
+                  <span class="detail">Closing: 01/12/2014</span>
+                  <span class="detail">Course Code: SEG 3101</span>
+                  <span class="detail">Status: Open</span> 
+                </div>
+                <input type="button" class="pure-button pure-button-primary" value="View Course" onclick="window.location.href='single-job.html';">
+            </div>
+
+            <div class="floating list">
+                <div class="details">
+                  <span class="detail">Closing: 05/11/2014</span>
+                  <span class="detail">Course Code: CSI 5112</span>
+                  <span class="detail">Status: Closed, undecided</span> 
+                </div>
+                <input type="button" class="pure-button pure-button-primary" value="View Course" onclick="window.location.href='single-job.html';">
+            </div>
+
+            <div class="floating list">
+                <div class="details">
+                  <span class="detail">Closing: 05/11/2014</span>
+                  <span class="detail">Course Code: ITI 1120</span>
+                  <span class="detail">Status: Closed, offer made</span> 
+                </div>
+                <input type="button" class="pure-button pure-button-primary" value="View Course" onclick="window.location.href='single-job.html';">
+            </div>
+
+            <div class="centered second">
+                <h2>Inactive</h2>
+            </div>
+
+            <div class="floating list">
+                <div class="details">
+                  <span class="detail">Closing: 05/11/2014</span>
+                  <span class="detail">Course Code: SEG 3102</span>
+                  <span class="detail">Status: Closed, rejected</span> 
+                </div>
+                <input type="button" class="pure-button pure-button-primary" value="View Course" onclick="window.location.href='single-job.html';">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/ui.js"></script>
+
+</body>
+</html>
