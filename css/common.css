@@ -208,6 +208,10 @@ p.small {
     font-size: 12px;
 }
 
+input[type=button].disabled {
+    background-color: gray;
+}
+
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
 /*

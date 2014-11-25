@@ -100,7 +100,3 @@ h2 {
     clear:right; 
     margin-bottom: 5px;
   }
-
-  .large-item .buttons .disabled {
-    background-color: gray;
-  }
